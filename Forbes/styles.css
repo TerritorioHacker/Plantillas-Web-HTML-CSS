@@ -1,0 +1,236 @@
+        /* Estilos Generales*/
+        body {
+            margin: 0;
+            font-family: 'Libre Baskerville', sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        link {
+            text-decoration: none;
+            color: black;
+        }
+
+        /* Header */
+
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+            /* Banner Anuncio */
+            .anuncio {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .anuncio img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            /* Banner Menu */
+            .header-cont-2 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                max-width: 1200px;
+                width: 100%;
+                padding: 0 10px;
+                margin: 0 auto;
+            }
+
+            #menu-icon {
+                width: 40px;
+                margin-top: 20px;
+            }
+
+            #cont-title-banner {
+                flex: 1; /* Toma todo el espacio disponible entre los iconos */
+                text-align: center;
+            }
+
+            #cont-title-banner h1 {
+                font-size: 54px;
+                font-weight: bold;
+                letter-spacing: -3px;
+                margin: 0;
+            }
+
+            .cont-img-lupa {
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            .cont-img-lupa img {
+                width: 30px;
+                margin-right: 30px;
+                margin-top: 10px;
+            }
+
+        /* Línea Horizontal */
+        hr {
+            border: none;
+            height: 3px;
+            background-color: black;
+        }
+
+        /* Primer Contenedor - Submenú */
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 5px;
+            padding: 0px 300px 0px 300px;
+            margin-bottom: -25px;
+        }
+
+        nav a {
+            color: black;
+            font-family: "Work Sans", serif;
+            font-size: 900;
+            text-decoration: none;
+            padding: 10px;
+            font-size: 16px;
+            font-weight: 600;
+
+        }
+
+        nav a:hover {
+            border-radius: 5px;
+        }
+
+        /* Segundo Contenedor - Foto Elon */
+        .segundo-contenedor {
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .segundo-contenedor img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .segundo-contenedor h2 {
+            font-family: "Libre Baskerviller", serif;
+            font-size: 30px;
+            font-weight: 100;
+            margin: 0px 0px 30px 0px;  
+        }
+
+        .segundo-contenedor p {
+            display: flex;
+            justify-content: center;
+            margin-left: -20px;
+            font-size: 14px;
+        }
+
+        .segundo-contenedor a {
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            font-weight: 900;
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+
+        .segundo-contenedor a:hover {
+            text-decoration: underline;
+        }
+
+        #under {
+            font-family: "Anton SC", serif;
+            font-size: 32px;
+            margin-top: -13px;;
+
+        }
+
+        #tapas {
+            font-family: "Bubbles",serif;
+            font-size: 30px;
+            margin-top: -10px;
+        }
+
+        #nautik {
+            font-family: "Bubbles", serif;
+            font-size: 30px;
+            margin-top: -10px;
+        }
+
+        .autores {
+            font-size:13px;
+            margin-top: 2px;
+            font-weight: 900;
+        }
+        
+        .autores-white {
+            color:white;
+        }
+
+        /* Tercer Contenedor */
+
+        .tercer-contenedor {
+            background-color: #FFD600;
+            display: flex;
+            justify-content: center;
+            padding: 5% 10% 2% 10%;
+        }
+
+        .tercer-contenedor p {
+            font-weight: bold;
+        }
+
+        .contenedor-colum-1 {
+            max-width: 20%;
+            margin-right: 10px;
+        }
+
+        .contenedor-colum-2 {
+            max-width: 40%;
+        }
+
+        .contenedor-colum-3 {
+            max-width: 20%;
+            margin-left: 10px;
+
+        }
+
+        .articulo-peq img {
+            max-width: 300px;
+        }
+
+        .articulo-gran img {
+            display: flex;
+            max-width: 100%;
+        }
+
+        .articulo-gran h2 {
+            font-size: 35px;
+            font-weight: 900;
+            font-family: "Libre Baskerville", serif;
+            margin-top: -10px;
+        }
+
+        .articulo-gran  {
+            font-size: 15px;
+        }
+
+        @media (max-width: 800px) {
+            .tercer-contenedor {
+                padding: 5% 10% 5% 10%;
+            }
+        }
+
+        /* Cuarto Contenedor */
